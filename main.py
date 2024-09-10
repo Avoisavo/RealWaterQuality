@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import os
-
+import sklearn
 
 # Define the model path
 MODEL_PATH = 'Gradient_boosting_model.joblib'
