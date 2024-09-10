@@ -5,6 +5,8 @@ joblib
 numpy
 openpyxl
 matplotlib
+pip uninstall scikit-learn
+pip install scikit-learn
 
 
 
