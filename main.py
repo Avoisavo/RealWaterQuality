@@ -34,8 +34,8 @@ def main():
 
     # Title of your app
     st.title("Water Safety Prediction App")
-    st.subheader("by: Tan Zhi Wei, Jeffrey Loo Jia Quan, Jason Paw Yi Lok")
-    
+# Subtitle with markdown for smaller text
+st.markdown("#### by: Tan Zhi Wei, Jeffrey Loo Jia Quan, Jason Paw Yi Lok")
     # Sidebar for navigation
     st.sidebar.title("Options")
     option = st.sidebar.selectbox("Choose how to input data", ["Enter values", "Upload file"])
