@@ -34,6 +34,7 @@ def main():
 
     # Title of your app
     st.title("Water Safety Prediction App")
+    st.subheader("by: Tan Zhi Wei, Jeffrey Loo Jia Quan, Jason Paw Yi Lok")
     
     # Sidebar for navigation
     st.sidebar.title("Options")
